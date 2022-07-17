@@ -8,14 +8,15 @@
 // 22
 // 1
 let i, rep;
-//BUCLE FOR PARA RECORRER DE 50 A 1
-for (i = 4; i >= 1; i--) {
-    console.log(i)
-    // BUCLE INTERIOR PARA HACER LAS REPETICIONES
-    for (rep = 3; rep >= i; rep--) {
+
+let numero = parseInt(prompt("escriba un numero del 1 al 50"))
+//BUCLE FOR PARA RECORRER DE 1 A 30
+for (i = numero; i >= 1; i--) {
+    //BUCLE INTERIOR PARA HACER LAS REPETICIONES
+    for (rep = 0; rep < i; rep++) {
         //IMPRIMIMOS EL NÚMERO i, i VECES
         document.write(i);
     }
-    // IMPRIMIMOS UN SALTO DE LÍNEA
+    //IMPRIMIMOS UN SALTO DE LÍNEA
     document.write("<br>");
 }
