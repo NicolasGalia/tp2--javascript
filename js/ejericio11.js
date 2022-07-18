@@ -15,4 +15,10 @@ let nombre3 = prompt("escribe tu nombre")
 if (Math.max(edad1, edad2, edad3) == edad1){
  document.write(nombre1)
 }
+if (Math.max(edad1, edad2, edad3) == edad2){
+ document.write(nombre2)
+}
+if (Math.max(edad1, edad2, edad3) == edad3){
+ document.write(nombre3)
+}
 
